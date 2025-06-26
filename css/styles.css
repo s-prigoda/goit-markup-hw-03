@@ -72,9 +72,6 @@ address {
   color: #404bbf;
 }
 
-.st:focus {
-  color: #404bbf;
-}
 .hero-banner-button:hover {
   background-color: #404bbf;
 }
@@ -107,11 +104,6 @@ address {
 }
 
 .header-navigation-logo {
-  padding: 24px 0;
-  margin-right: 76px;
-}
-
-.header-navigation-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -120,6 +112,8 @@ address {
   line-height: 21px;
   line-height: 1.17;
   color: #4d5ae5;
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .header-list {
@@ -300,10 +294,6 @@ address {
   text-align: center;
   text-align: center;
   margin-bottom: 8px;
-}
-
-.line {
-  text-decoration: underline;
 }
 
 .team-list-text {
