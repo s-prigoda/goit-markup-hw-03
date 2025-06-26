@@ -225,7 +225,8 @@ address {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
   white-space: nowrap;
   border: 0;
 }
@@ -236,6 +237,7 @@ address {
   display: flex;
   max-width: 1128px;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .benefits-list-title {
@@ -253,7 +255,6 @@ address {
 
 .benefits-list-item {
   width: calc((100% - 72px) / 4);
-  gap: 24px;
 }
 /* benefits section end */
 
@@ -261,7 +262,7 @@ address {
 
 .team {
   background: #f4f4fd;
-  padding: 120px o;
+  padding: 120px 0;
 }
 
 .team-list {
@@ -275,6 +276,8 @@ address {
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-title {
@@ -286,8 +289,6 @@ address {
   color: #2e2f42;
   padding-top: 120px;
   margin-bottom: 72px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .team-list-title {
@@ -297,7 +298,7 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  margin-top: 32px;
+  text-align: center;
   margin-bottom: 8px;
 }
 
@@ -309,7 +310,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
+  margin: 0;
+  text-align: center;
 }
 
 .team-container {
